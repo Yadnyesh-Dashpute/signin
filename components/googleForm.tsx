@@ -28,7 +28,7 @@ export default function Googleform() {
   
         <div className="flex flex-col md:flex-row justify-between items-center text-sm text-neutral-500">
           <label className="flex items-center mb-2 md:mb-0">
-            <input type="checkbox" className="mr-2" />
+            <input type="checkbox" className="mr-2 cursor-pointer" />
             Remember me
           </label>
           <a href="#Link" className="text-blue-600 underline">
@@ -36,7 +36,7 @@ export default function Googleform() {
           </a>
         </div>
   
-        <button className="bg-[#823DA8] text-white rounded-3xl h-12 w-full font-medium hover:bg-[#702f96] transition">
+        <button className="bg-[#823DA8] text-white rounded-3xl h-12 w-full font-medium hover:bg-[#702f96] transition cursor-pointer">
           Log in
         </button>
   
